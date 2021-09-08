@@ -1,1 +1,1 @@
-# cadddy-vultr
+# caddy-vultr
