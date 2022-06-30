@@ -1,7 +1,7 @@
 FROM caddy:2.5.1-builder AS builder
 
 RUN xcaddy build \
-    -- with github.com/caddy-dns/vultr
+    --with github.com/caddy-dns/vultr
     
 FROM caddy:latest
 
