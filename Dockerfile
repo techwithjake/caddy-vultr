@@ -1,4 +1,4 @@
-FROM caddy:2.5.1-builder AS builder
+FROM caddy:2.6.4-builder-alpine AS builder
 
 RUN xcaddy build \
     --with github.com/caddy-dns/vultr
